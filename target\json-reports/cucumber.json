@@ -1,0 +1,60 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-11T19:14:07.725Z",
+        "line": 5,
+        "name": "Read all customers",
+        "description": "",
+        "id": "validate-all-customers--info;read-all-customers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user sets all response using api end point \"https://www.gmibank.com/api/tp-customers\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user validates the data",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllCustomer"
+          },
+          {
+            "name": "@customerapi"
+          }
+        ]
+      }
+    ],
+    "name": "Validate all customers\u0027 info",
+    "description": "",
+    "id": "validate-all-customers--info",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/US_20_customer.feature",
+    "tags": [
+      {
+        "name": "@AllCustomer",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
