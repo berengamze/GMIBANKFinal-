@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.348">
+    <testcase classname="Validate all customers' info" name="Read all customers" time="0.125">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given user sets all response using api end point "https://www.gmibank.com/api/tp-customers".undefined
+Then user validates the data................................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
